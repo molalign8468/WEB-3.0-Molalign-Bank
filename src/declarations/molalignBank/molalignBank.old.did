@@ -1,0 +1,6 @@
+service : {
+  compondInterst: () -> () oneway;
+  currentBalnce: () -> (float64) query;
+  deposite: (float64) -> () oneway;
+  withDraw: (float64) -> () oneway;
+}
